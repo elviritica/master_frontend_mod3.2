@@ -1,0 +1,18 @@
+{
+  "name": "master_frontend_mod3.2",
+  "version": "1.0.0",
+  "description": "- Clone project - Install dependencies with `npm install` - Run with `npm start` - Open the browser at http://localhost:8080/",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "vite": "^5.4.2"
+  }
+}
