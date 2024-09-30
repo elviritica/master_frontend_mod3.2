@@ -8,4 +8,8 @@
 - Vite bundling.
 - Simple "Hello World" application with React.
 - CSS, SASS & Bootstrap management
+- Image management
+- Typescript support
+- Environment variables
+
 

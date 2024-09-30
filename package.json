@@ -1,5 +1,7 @@
 {
   "name": "master_frontend_mod3.2",
+  "private": true,
+  "type": "module",
   "version": "1.0.0",
   "description": "- Clone project - Install dependencies with `npm install` - Run with `npm start` - Open the browser at http://localhost:8080/",
   "main": "index.js",
@@ -12,10 +14,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
     "sass": "^1.77.8",
-    "vite": "^5.4.2"
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.2",
+    "vite-plugin-checker": "^0.8.0"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
